@@ -1,0 +1,262 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{8DA88464-6FFA-4CC7-8474-8C98C6D1736F}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>WIN.BILANCIO</RootNamespace>
+    <AssemblyName>WIN.BILANCIO</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <SccProjectName>
+    </SccProjectName>
+    <SccLocalPath>
+    </SccLocalPath>
+    <SccAuxPath>
+    </SccAuxPath>
+    <SccProvider>
+    </SccProvider>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <UpgradeBackupLocation />
+    <PublishUrl>http://localhost/WIN.BILANCIO/</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Web</InstallFrom>
+    <UpdateEnabled>true</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>true</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="MySql.Data">
+      <HintPath>..\..\WIN.EXTERNAL_COMPONENTS\MySql.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Runtime.Serialization.Formatters.Soap" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Xml" />
+    <Reference Include="WIN.TECHNICAL.MIDDLEWARE, Version=8.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\dlls\WIN.TECHNICAL.MIDDLEWARE.dll</HintPath>
+    </Reference>
+    <Reference Include="WIN.TECHNICAL.SECURITY, Version=8.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\dlls\WIN.TECHNICAL.SECURITY.dll</HintPath>
+    </Reference>
+    <Reference Include="WIN.TECHNICAL.VB.PERSISTENCE, Version=8.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\dlls\WIN.TECHNICAL.VB.PERSISTENCE.dll</HintPath>
+    </Reference>
+    <Reference Include="WIN.TECHNICAL.VB.UTILS, Version=8.6.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\dlls\WIN.TECHNICAL.VB.UTILS.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AsyncNotifier.cs" />
+    <Compile Include="DataAccess\DTORendicontoMappaer.cs" />
+    <Compile Include="DataAccess\RendicontoMapper.cs" />
+    <Compile Include="DataAccess\UpdateFileMapper.cs" />
+    <Compile Include="DomainLayer\AbstrtactBilancio.cs" />
+    <Compile Include="DomainLayer\Accantonamento.cs" />
+    <Compile Include="DomainLayer\Auto.cs" />
+    <Compile Include="DomainLayer\BilancioNew.cs" />
+    <Compile Include="DomainLayer\Chiusura.cs" />
+    <Compile Include="DomainLayer\Bilancio.cs" />
+    <Compile Include="DomainLayer\Classificazione.cs" />
+    <Compile Include="DomainLayer\Conto.cs" />
+    <Compile Include="DomainLayer\ContoPreventivo.cs" />
+    <Compile Include="DomainLayer\Deposito.cs" />
+    <Compile Include="DomainLayer\DTORendiconto.cs" />
+    <Compile Include="DomainLayer\DTORendicontoItem.cs" />
+    <Compile Include="DomainLayer\Immobile.cs" />
+    <Compile Include="DomainLayer\IRendicontoFactory.cs" />
+    <Compile Include="DomainLayer\Mobile.cs" />
+    <Compile Include="DomainLayer\NodeUpdate.cs" />
+    <Compile Include="DomainLayer\NodeUpdateList.cs" />
+    <Compile Include="DomainLayer\Polizza.cs" />
+    <Compile Include="DomainLayer\Preventivo.cs" />
+    <Compile Include="DomainLayer\RendicondoRegionaleFactory.cs" />
+    <Compile Include="DomainLayer\Rendiconto.cs" />
+    <Compile Include="DomainLayer\RendicontoFactory.cs" />
+    <Compile Include="DomainLayer\RendicontoProvincialeFactory.cs" />
+    <Compile Include="DomainLayer\Scrittura.cs" />
+    <Compile Include="DomainLayer\ScrittureSearchCriteria.cs" />
+    <Compile Include="DomainLayer\StatoPatrimoniale.cs" />
+    <Compile Include="DomainLayer\TipoBilanco.cs" />
+    <Compile Include="Middleware\IBasePresentation.cs" />
+    <Compile Include="Middleware\IerarchicalListBinder.cs" />
+    <Compile Include="Middleware\IGridContainer.cs" />
+    <Compile Include="Middleware\IIerarchicalContainer.cs" />
+    <Compile Include="Middleware\IIerarchiObject.cs" />
+    <Compile Include="Middleware\ILabel.cs" />
+    <Compile Include="Middleware\ILookUpCpllection.cs" />
+    <Compile Include="Middleware\ILookUpList.cs" />
+    <Compile Include="Middleware\IMessageBox.cs" />
+    <Compile Include="Middleware\INode.cs" />
+    <Compile Include="Middleware\IOpenFileClass.cs" />
+    <Compile Include="Middleware\SortableBindingList.cs" />
+    <Compile Include="Middleware\StringListBinder.cs" />
+    <Compile Include="PresentationLogicComponents\ActionType.cs" />
+    <Compile Include="PresentationLogicComponents\BilancioFormPresenter.cs" />
+    <Compile Include="PresentationLogicComponents\ExportBilancioPresenter.cs" />
+    <Compile Include="PresentationLogicComponents\FrmContropartitaPresenter.cs" />
+    <Compile Include="PresentationLogicComponents\FrmTagliaPresenter.cs" />
+    <Compile Include="PresentationLogicComponents\IBilancioFormView.cs" />
+    <Compile Include="PresentationLogicComponents\IFrmContoView.cs" />
+    <Compile Include="PresentationLogicComponents\IFrmContropartita.cs" />
+    <Compile Include="PresentationLogicComponents\IFrmExportBilancio.cs" />
+    <Compile Include="PresentationLogicComponents\IFrmTaglia.cs" />
+    <Compile Include="PresentationLogicComponents\ImportoContoPresenter.cs" />
+    <Compile Include="PresentationLogicComponents\IRendicontoHeaderView.cs" />
+    <Compile Include="PresentationLogicComponents\IScritturaSingloaView.cs" />
+    <Compile Include="PresentationLogicComponents\IScritturaSingolaContoRLSTFormView.cs" />
+    <Compile Include="PresentationLogicComponents\IScrittureContoRLSTFormView.cs" />
+    <Compile Include="PresentationLogicComponents\IScrittureFormView.cs" />
+    <Compile Include="PresentationLogicComponents\ISituazioneFianziariaformView.cs" />
+    <Compile Include="PresentationLogicComponents\IStartupFormView.cs" />
+    <Compile Include="PresentationLogicComponents\RendicontoHeaderFormPresenter.cs" />
+    <Compile Include="PresentationLogicComponents\ScritturaSingolaContoRLSTPresenter.cs" />
+    <Compile Include="PresentationLogicComponents\ScritturaSingolaPresenter.cs" />
+    <Compile Include="PresentationLogicComponents\ScrittureContoRLSTPresenter.cs" />
+    <Compile Include="PresentationLogicComponents\ScritturePresenter.cs" />
+    <Compile Include="PresentationLogicComponents\SituazioneFinanziariaPresenter.cs" />
+    <Compile Include="PresentationLogicComponents\StartupFormPresenter.cs" />
+    <Compile Include="PresentationLogicComponents\TipoOperazioneDecoder.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <DependentUpon>Settings.settings</DependentUpon>
+    </Compile>
+    <Compile Include="ServiceLayer\BilancioService.cs" />
+    <Compile Include="ServiceLayer\ContoRLSTService.cs" />
+    <Compile Include="ServiceLayer\DTO\FinanzaFinaleDTO.cs" />
+    <Compile Include="ServiceLayer\DTO\FinanzaInizialeDTO.cs" />
+    <Compile Include="ServiceLayer\DTO\RendicontoHeaderDTO.cs" />
+    <Compile Include="ServiceLayer\DTO\ScritturaPrimaNotaDTO.cs" />
+    <Compile Include="ServiceLayer\DTO\ScrittureDTO.cs" />
+    <Compile Include="ServiceLayer\DTO\StatisticsDTO.cs" />
+    <Compile Include="ServiceLayer\ExcelExporter\ExcelMastroPrinter.cs" />
+    <Compile Include="ServiceLayer\ExcelExporter\ExcelSearchCriteria.cs" />
+    <Compile Include="ServiceLayer\ExcelExporter\Exporter.cs" />
+    <Compile Include="ServiceLayer\ExcelExporter\StampaExcelSettings.cs" />
+    <Compile Include="ServiceLayer\ExportBilancioServiceAgent.cs" />
+    <Compile Include="ServiceLayer\GeoElements\GeoHandlerClass.cs" />
+    <Compile Include="ServiceLayer\GeoElements\GeoHandlerProvider.cs" />
+    <Compile Include="ServiceLayer\GeoElements\LazyComune.cs" />
+    <Compile Include="ServiceLayer\GeoElements\LazyProvincie.cs" />
+    <Compile Include="ServiceLayer\PreventivoService.cs" />
+    <Compile Include="ServiceLayer\RendicontoService.cs" />
+    <Compile Include="ServiceLayer\ScrittureConverter.cs" />
+    <Compile Include="ServiceLayer\StatoPatrimonialeService.cs" />
+    <Compile Include="Test\TestFindMethods.cs" />
+    <Compile Include="Test\TestScritture.cs" />
+    <Compile Include="Test\TestSerializzazione.cs" />
+    <Compile Include="Test\TestSerializzazioneStatoPatrimoniale.cs" />
+    <Compile Include="Web References\FenealgestServices\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.map</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="GEODB\geo2003.mdb">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <None Include="Web References\FenealgestServices\FenealgestwebServices.disco" />
+    <None Include="Web References\FenealgestServices\FenealgestwebServices.wsdl" />
+    <None Include="Web References\FenealgestServices\QueryResultDTO.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\FenealgestServices\Reference.map">
+      <Generator>MSDiscoCodeGenerator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <WebReferences Include="Web References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <WebReferenceUrl Include="https://www.fenealgest.it/servizi/WebServices/FenealgestwebServices.asmx">
+      <UrlBehavior>Static</UrlBehavior>
+      <RelPath>Web References\FenealgestServices\</RelPath>
+      <UpdateFromURL>https://www.fenealgest.it/servizi/WebServices/FenealgestwebServices.asmx</UpdateFromURL>
+      <ServiceLocationURL>
+      </ServiceLocationURL>
+      <CachedDynamicPropName>
+      </CachedDynamicPropName>
+      <CachedAppSettingsObjectName>Settings</CachedAppSettingsObjectName>
+      <CachedSettingsPropName>WIN_BILANCIO_FenealgestServices_FenealgestwebServices</CachedSettingsPropName>
+    </WebReferenceUrl>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ListaAggiornamentonodi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"  xmlns="www.fenealgestweb.it">
+	<SubList>
+    <Update ContoType="Conto" UpdateType="Bilancio" Id="S.OI.2.d" Description="Irap-Irpeg-Ici" ParentId="S.OI.2"> </Update>
+    <Update ContoType="Conto" UpdateType="Preventivo" Id="S.OI.2.d" Description="Irap-Irpeg-Ici" ParentId="S.OI.2"> </Update>
+
+    <Update ContoType="Conto" UpdateType="Bilancio" Id="S.OI.2.h" Description="Liquidazioni erogate e TFR" ParentId="S.OI.2"> </Update>
+    <Update ContoType="Conto" UpdateType="Preventivo" Id="S.OI.2.h" Description="Liquidazioni erogate e TFR" ParentId="S.OI.2"> </Update>
+
+    <Update ContoType="Conto" UpdateType="Bilancio" Id="S.OI.6.e" Description="Affitto e condominio" ParentId="S.OI.6"> </Update>
+    <Update ContoType="Conto" UpdateType="Preventivo" Id="S.OI.6.e" Description="Affitto e condominio" ParentId="S.OI.6"> </Update>
+
+    
+    <!--<Update ContoType="Classificazione" UpdateType="Bilancio" Id="S.OI.2.i" Description="Nuova categoria" ParentId="S.OI.2"> </Update>
+    <Update ContoType="Conto" UpdateType="Bilancio" Id="S.OI.2.i.1" Description="Nuovo conto" ParentId="S.OI.2.i"> </Update>
+    <Update ContoType="ContoPreventivo" UpdateType="Bilancio" Id="S.OI.2.i.2" Description="Nuova preventivo" ParentId="S.OI.2.i"> </Update>-->
+
+  </SubList>
+</ListaAggiornamentonodi>

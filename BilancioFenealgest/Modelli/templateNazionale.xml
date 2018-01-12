@@ -1,0 +1,728 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Rendiconto xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Versione="500" Proprietario="a" SendableTag="FENEAL" IsRegionale="false" Year="2015" Province="CHIETI" Region="ABRUZZO" xmlns="www.fenealgestweb.it">
+  <ContoRLST Id="RLST" ParentId="" ParentName="" Importo="0" SaldoIniziale="0" Description="Conto RLST">
+    <SubList />
+  </ContoRLST>
+  <Banca1>Banca1</Banca1>
+  <Banca2>Banca2</Banca2>
+  <Banca3>Banca3</Banca3>
+  <Banca4>Banca4</Banca4>
+  <Banca5>Banca5</Banca5>
+  <Banca6>Banca6</Banca6>
+  <Bilancio Id="" ParentId="" ParentName="" Importo="0" SaldoIniziale="0" Description="">
+    <SubList>
+      <Classificazione Id="A" ParentId="" ParentName="" Importo="0" SaldoIniziale="0" Description="ATTIVITA'">
+        <SubList>
+          <Classificazione Id="A.I" ParentId="A" ParentName="ATTIVITA'" Importo="0" SaldoIniziale="0" Description="Immobilizzazioni">
+            <SubList>
+              <Conto Id="A.I.1" ParentId="A.I" ParentName="Immobilizzazioni" Importo="0" SaldoIniziale="0" Description="Immobilizzazioni immateriali">
+                <SubList />
+              </Conto>
+              <Conto Id="A.I.2" ParentId="A.I" ParentName="Immobilizzazioni" Importo="0" SaldoIniziale="0" Description="Immobilizzazioni materiali">
+                <SubList />
+              </Conto>
+              <Conto Id="A.I.3" ParentId="A.I" ParentName="Immobilizzazioni" Importo="0" SaldoIniziale="0" Description="Immobili">
+                <SubList />
+              </Conto>
+              <Conto Id="A.I.4" ParentId="A.I" ParentName="Immobilizzazioni" Importo="0" SaldoIniziale="0" Description="Immobilizzazioni finanziarie">
+                <SubList />
+              </Conto>
+            </SubList>
+          </Classificazione>
+
+          <Classificazione Id="A.P" ParentId="A" ParentName="ATTIVITA'" Importo="0" SaldoIniziale="0" Description="Partecipazioni">
+            <SubList>
+              <Conto Id="A.P.1" ParentId="A.P" ParentName="Partecipazioni" Importo="0" SaldoIniziale="0" Description="Progetto Sud">
+                <SubList />
+              </Conto>
+              <Conto Id="A.P.2" ParentId="A.P" ParentName="Partecipazioni" Importo="0" SaldoIniziale="0" Description="Altea">
+                <SubList />
+              </Conto>
+              <Conto Id="A.P.3" ParentId="A.P" ParentName="Partecipazioni" Importo="0" SaldoIniziale="0" Description="Altre Partecipazioni">
+                <SubList />
+              </Conto>
+            </SubList>
+          </Classificazione>
+          
+          
+          <Classificazione Id="A.C" ParentId="A" ParentName="ATTIVITA'" Importo="0" SaldoIniziale="0" Description="Crediti">
+            <SubList>
+              <Conto Id="A.C.1" ParentId="A.C" ParentName="Crediti" Importo="0" SaldoIniziale="0" Description="Crediti verso Strutture regionali">
+                <SubList />
+              </Conto>
+              <Conto Id="A.C.2" ParentId="A.C" ParentName="Crediti" Importo="0" SaldoIniziale="0" Description="Crediti verso strutture territoriali">
+                <SubList />
+              </Conto>
+              <Conto Id="A.C.3" ParentId="A.C" ParentName="Crediti" Importo="0" SaldoIniziale="0" Description="Crediti verso Enti Bilaterali">
+                <SubList />
+              </Conto>
+              <Conto Id="A.C.4" ParentId="A.C" ParentName="Crediti" Importo="0" SaldoIniziale="0" Description="Depositi cauzionali">
+                <SubList />
+              </Conto>
+              <Conto Id="A.C.5" ParentId="A.C" ParentName="Crediti" Importo="0" SaldoIniziale="0" Description="Crediti verso altri">
+                <SubList />
+              </Conto>
+            </SubList>
+          </Classificazione>
+          
+          
+          
+          <Classificazione Id="A.D" ParentId="A" ParentName="ATTIVITA'" Importo="0" SaldoIniziale="0" Description="Disponibilità">
+            <SubList>
+              <Conto Id="A.D.1" ParentId="A.D" ParentName="Disponibilità" Importo="0" SaldoIniziale="0" Description="Cassa">
+                <SubList />
+              </Conto>
+              <Classificazione Id="A.D.2" ParentId="A.D" ParentName="Disponibilità" Importo="0" SaldoIniziale="0" Description="Depositi bancari e postali">
+                <SubList>
+                  <Conto Id="A.D.2.a" ParentId="A.D.2" ParentName="Depositi bancari e postali" Importo="0" SaldoIniziale="0" Description="Banca1">
+                    <SubList />
+                  </Conto>
+                  <Conto Id="A.D.2.b" ParentId="A.D.2" ParentName="Depositi bancari e postali" Importo="0" SaldoIniziale="0" Description="Banca2">
+                    <SubList />
+                  </Conto>
+                  <Conto Id="A.D.2.c" ParentId="A.D.2" ParentName="Depositi bancari e postali" Importo="0" SaldoIniziale="0" Description="Banca3">
+                    <SubList />
+                  </Conto>
+                  <Conto Id="A.D.2.d" ParentId="A.D.2" ParentName="Depositi bancari e postali" Importo="0" SaldoIniziale="0" Description="Banca4">
+                    <SubList />
+                  </Conto>
+                  <Conto Id="A.D.2.e" ParentId="A.D.2" ParentName="Depositi bancari e postali" Importo="0" SaldoIniziale="0" Description="Banca5">
+                    <SubList />
+                  </Conto>
+                  <Conto Id="A.D.2.f" ParentId="A.D.2" ParentName="Depositi bancari e postali" Importo="0" SaldoIniziale="0" Description="Banca6">
+                    <SubList />
+                  </Conto>
+                </SubList>
+              </Classificazione>
+            </SubList>
+          </Classificazione>
+        </SubList>
+      </Classificazione>
+      <Classificazione Id="P" ParentId="" ParentName="" Importo="0" SaldoIniziale="0" Description="PASSIVITA'">
+        <SubList>
+          <Classificazione Id="P.D" ParentId="P" ParentName="PASSIVITA'" Importo="0" SaldoIniziale="0" Description="Debiti a breve">
+            <SubList>
+              <Conto Id="P.D.1" ParentId="P.D" ParentName="Debiti a breve" Importo="0" SaldoIniziale="0" Description="Debiti VS UIL">
+                <SubList />
+              </Conto>
+              <Conto Id="P.D.2" ParentId="P.D" ParentName="Debiti a breve" Importo="0" SaldoIniziale="0" Description="Debiti VS Tesseramento">
+                <SubList />
+              </Conto>
+              <Conto Id="P.D.3" ParentId="P.D" ParentName="Debiti a breve" Importo="0" SaldoIniziale="0" Description="Debiti tributari e previdenziali">
+                <SubList />
+              </Conto>
+              <Conto Id="P.D.4" ParentId="P.D" ParentName="Debiti a breve" Importo="0" SaldoIniziale="0" Description="Debiti commerciali">
+                <SubList />
+              </Conto>
+              <Conto Id="P.D.5" ParentId="P.D" ParentName="Debiti a breve" Importo="0" SaldoIniziale="0" Description="Debiti diversi">
+                <SubList />
+              </Conto>
+            </SubList>
+          </Classificazione>
+          <Classificazione Id="P.L" ParentId="P" ParentName="PASSIVITA'" Importo="0" SaldoIniziale="0" Description="Debiti a lungo periodo">
+            <SubList>
+              <Conto Id="P.L.1" ParentId="P.L" ParentName="Debiti a lungo periodo" Importo="0" SaldoIniziale="0" Description="Mutuo passivo">
+                <SubList />
+              </Conto>
+            </SubList>
+          </Classificazione>
+          <Classificazione Id="P.F" ParentId="P" ParentName="PASSIVITA'" Importo="0" SaldoIniziale="0" Description="Fondi">
+            <SubList>
+              <Conto Id="P.F.1" ParentId="P.F" ParentName="Fondi" Importo="0" SaldoIniziale="0" Description="Accantonamento TFR">
+                <SubList />
+              </Conto>
+              <Conto Id="P.F.2" ParentId="P.F" ParentName="Fondi" Importo="0" SaldoIniziale="0" Description="Fondi ammortamento">
+                <SubList />
+              </Conto>
+              <Conto Id="P.F.3" ParentId="P.F" ParentName="Fondi" Importo="0" SaldoIniziale="0" Description="Altri accantonamenti">
+                <SubList />
+              </Conto>
+            </SubList>
+          </Classificazione>
+          <Classificazione Id="P.P" ParentId="P" ParentName="PASSIVITA'" Importo="0" SaldoIniziale="0" Description="Patrimonio sociale">
+            <SubList>
+              <Conto Id="P.P.1" ParentId="P.P" ParentName="Patrimonio sociale" Importo="0" SaldoIniziale="0" Description="Patrimonio netto">
+                <SubList />
+              </Conto>
+            </SubList>
+          </Classificazione>
+        </SubList>
+      </Classificazione>
+      <Classificazione Id="S" ParentId="" ParentName="" Importo="0" SaldoIniziale="0" Description="SPESE">
+        <SubList>
+          <Classificazione Id="S.OI" ParentId="S" ParentName="SPESE" Importo="0" SaldoIniziale="0" Description="Operazioni istituzionali">
+            <SubList>
+              <Classificazione Id="S.OI.1" ParentId="S.OI" ParentName="Operazioni istituzionali" Importo="0" SaldoIniziale="0" Description="Spese politico organizzative">
+                <SubList>
+                  <Conto Id="S.OI.1.a" ParentId="S.OI.1" ParentName="Spese politico organizzative" Importo="0" SaldoIniziale="0" Description="Attività organizzativa - Sindacale">
+                    <SubList />
+                  </Conto>
+                  <Conto Id="S.OI.1.b" ParentId="S.OI.1" ParentName="Spese politico organizzative" Importo="0" SaldoIniziale="0" Description="Informazione e propaganda">
+                    <SubList />
+                  </Conto>
+                  <Conto Id="S.OI.1.c" ParentId="S.OI.1" ParentName="Spese politico organizzative" Importo="0" SaldoIniziale="0" Description="Attività di formazione">
+                    <SubList />
+                  </Conto>
+                  <Conto Id="S.OI.1.d" ParentId="S.OI.1" ParentName="Spese politico organizzative" Importo="0" SaldoIniziale="0" Description="Convegni e Manifestazioni">
+                    <SubList />
+                  </Conto>
+                </SubList>
+              </Classificazione>
+              <Classificazione Id="S.OI.2" ParentId="S.OI" ParentName="Operazioni istituzionali" Importo="0" SaldoIniziale="0" Description="Spese del personale">
+                <SubList>
+                  <Conto Id="S.OI.2.a" ParentId="S.OI.2" ParentName="Spese del personale" Importo="0" SaldoIniziale="0" Description="Retribuzioni personale e collaborazioni">
+                    <SubList />
+                  </Conto>
+                  <Conto Id="S.OI.2.b" ParentId="S.OI.2" ParentName="Spese del personale" Importo="0" SaldoIniziale="0" Description="Professionisti">
+                    <SubList />
+                  </Conto>
+                  <Conto Id="S.OI.2.c" ParentId="S.OI.2" ParentName="Spese del personale" Importo="0" SaldoIniziale="0" Description="IRPEF Ritenute e Addizionali">
+                    <SubList />
+                  </Conto>
+                  <Conto Id="S.OI.2.d" ParentId="S.OI.2" ParentName="Spese del personale" Importo="0" SaldoIniziale="0" Description="Contributi previdenziali">
+                    <SubList />
+                  </Conto>
+                  <Conto Id="S.OI.2.e" ParentId="S.OI.2" ParentName="Spese del personale" Importo="0" SaldoIniziale="0" Description="IRAP">
+                    <SubList />
+                  </Conto>
+                  <Conto Id="S.OI.2.f" ParentId="S.OI.2" ParentName="Spese del personale" Importo="0" SaldoIniziale="0" Description="Trattenute sindacali">
+                    <SubList />
+                  </Conto>
+                  <Conto Id="S.OI.2.g" ParentId="S.OI.2" ParentName="Spese del personale" Importo="0" SaldoIniziale="0" Description="Liquidazione TFR">
+                    <SubList />
+                  </Conto>
+                </SubList>
+              </Classificazione>
+              <Classificazione Id="S.OI.3" ParentId="S.OI" ParentName="Operazioni istituzionali" Importo="0" SaldoIniziale="0" Description="Contributi organizzativi">
+                <SubList>
+                  <Conto Id="S.OI.3.a" ParentId="S.OI.3" ParentName="Contributi organizzativi" Importo="0" SaldoIniziale="0" Description="Strutture regionali">
+                    <SubList />
+                  </Conto>
+                  <Conto Id="S.OI.3.b" ParentId="S.OI.3" ParentName="Contributi organizzativi" Importo="0" SaldoIniziale="0" Description="Strutture territoriali">
+                    <SubList />
+                  </Conto>
+                  <Conto Id="S.OI.3.c" ParentId="S.OI.3" ParentName="Contributi organizzativi" Importo="0" SaldoIniziale="0" Description="Federazioni internazionali">
+                    <SubList />
+                  </Conto>
+                  <Conto Id="S.OI.3.d" ParentId="S.OI.3" ParentName="Contributi organizzativi" Importo="0" SaldoIniziale="0" Description="Altri contributi">
+                    <SubList />
+                  </Conto>
+                </SubList>
+              </Classificazione>
+              <Classificazione Id="S.OI.6" ParentId="S.OI" ParentName="Operazioni istituzionali" Importo="0" SaldoIniziale="0" Description="Spese generali">
+                <SubList>
+                  <Conto Id="S.OI.6.a" ParentId="S.OI.6" ParentName="Spese generali" Importo="0" SaldoIniziale="0" Description="Utenze e servizi">
+                    <SubList />
+                  </Conto>
+                  <Conto Id="S.OI.6.b" ParentId="S.OI.6" ParentName="Spese generali" Importo="0" SaldoIniziale="0" Description="Manutenzioni">
+                    <SubList />
+                  </Conto>
+                  <Conto Id="S.OI.6.c" ParentId="S.OI.6" ParentName="Spese generali" Importo="0" SaldoIniziale="0" Description="Affitto e condominio">
+                    <SubList />
+                  </Conto>
+                  <Conto Id="S.OI.6.d" ParentId="S.OI.6" ParentName="Spese generali" Importo="0" SaldoIniziale="0" Description="Cancelleria">
+                    <SubList />
+                  </Conto>
+                  <Conto Id="S.OI.6.e" ParentId="S.OI.6" ParentName="Spese generali" Importo="0" SaldoIniziale="0" Description="Polizze assicurative">
+                    <SubList />
+                  </Conto>
+                  <Conto Id="S.OI.6.f" ParentId="S.OI.6" ParentName="Spese generali" Importo="0" SaldoIniziale="0" Description="Rata mutuo passivo">
+                    <SubList />
+                  </Conto>
+                  <Conto Id="S.OI.6.g" ParentId="S.OI.6" ParentName="Spese generali" Importo="0" SaldoIniziale="0" Description="Imposte e tasse">
+                    <SubList />
+                  </Conto>
+                  <Conto Id="S.OI.6.h" ParentId="S.OI.6" ParentName="Spese generali" Importo="0" SaldoIniziale="0" Description="Interessi ed oneri bancari">
+                    <SubList />
+                  </Conto>
+                  <Conto Id="S.OI.6.i" ParentId="S.OI.6" ParentName="Spese generali" Importo="0" SaldoIniziale="0" Description="Altre spese">
+                    <SubList />
+                  </Conto>
+                </SubList>
+              </Classificazione>
+              <Classificazione Id="S.OI.7" ParentId="S.OI" ParentName="Operazioni istituzionali" Importo="0" SaldoIniziale="0" Description="Spese beni durevoli">
+                <SubList>
+                  <Conto Id="S.OI.7.a" ParentId="S.OI.7" ParentName="Spese beni durevoli" Importo="0" SaldoIniziale="0" Description="Hardware e software">
+                    <SubList />
+                  </Conto>
+                  <Conto Id="S.OI.7.b" ParentId="S.OI.7" ParentName="Spese beni durevoli" Importo="0" SaldoIniziale="0" Description="Mobili e arredi">
+                    <SubList />
+                  </Conto>
+                  <Conto Id="S.OI.7.c" ParentId="S.OI.7" ParentName="Spese beni durevoli" Importo="0" SaldoIniziale="0" Description="Autoveicoli">
+                    <SubList />
+                  </Conto>
+                  <Conto Id="S.OI.7.d" ParentId="S.OI.7" ParentName="Spese beni durevoli" Importo="0" SaldoIniziale="0" Description="Attrezzature">
+                    <SubList />
+                  </Conto>
+                </SubList>
+              </Classificazione>
+              
+                <Classificazione Id="S.OI.9" ParentId="S.OI" ParentName="Operazioni istituzionali" Importo="0" SaldoIniziale="0" Description="Oneri straordinari">
+                <SubList>
+                  <Conto Id="S.OI.9.a" ParentId="S.OI.9" ParentName="Oneri straordinari" Importo="0" SaldoIniziale="0" Description="Minusvalenze">
+                    <SubList />
+                  </Conto>
+                  <Conto Id="S.OI.9.b" ParentId="S.OI.9" ParentName="Oneri straordinari" Importo="0" SaldoIniziale="0" Description="Sopravvenienze passive">
+                    <SubList />
+                  </Conto>
+                </SubList>
+              </Classificazione>
+                  
+                    
+                  
+                  
+                    
+              <Classificazione Id="S.OI.8" ParentId="S.OI" ParentName="Operazioni istituzionali" Importo="0" SaldoIniziale="0" Description="Tesseramento">
+                <SubList>
+                  <Conto Id="S.OI.8.a" ParentId="S.OI.8" ParentName="Tesseramento" Importo="0" SaldoIniziale="0" Description="Anno in corso">
+                    <SubList />
+                  </Conto>
+                  <Conto Id="S.OI.8.b" ParentId="S.OI.8" ParentName="Tesseramento" Importo="0" SaldoIniziale="0" Description="Anno precedente">
+                    <SubList />
+                  </Conto>
+                </SubList>
+              </Classificazione>
+            </SubList>
+          </Classificazione>
+        </SubList>
+      </Classificazione>
+      <Classificazione Id="E" ParentId="" ParentName="" Importo="0" SaldoIniziale="0" Description="ENTRATE">
+        <SubList>
+          <Classificazione Id="E.OI" ParentId="E" ParentName="ENTRATE" Importo="0" SaldoIniziale="0" Description="Operazioni istituzionali">
+            <SubList>
+              <Classificazione Id="E.OI.1" ParentId="E.OI" ParentName="Operazioni istituzionali" Importo="0" SaldoIniziale="0" Description="Contributi territoriali">
+                <SubList>
+                  <Conto Id="E.OI.1.a" ParentId="E.OI.1" ParentName="Contributi territoriali" Importo="0" SaldoIniziale="0" Description="Quote di adesione contrattuale CASSA EDILE">
+                    <SubList />
+                  </Conto>
+                  <Conto Id="E.OI.1.b" ParentId="E.OI.1" ParentName="Contributi territoriali" Importo="0" SaldoIniziale="0" Description="Quote di adesione contrattuale EDILCASSA">
+                    <SubList />
+                  </Conto>
+                  <Conto Id="E.OI.1.c" ParentId="E.OI.1" ParentName="Contributi territoriali" Importo="0" SaldoIniziale="0" Description="Quote di adesione contrattuale ALTRE CASSE">
+                    <SubList />
+                  </Conto>
+                  
+                </SubList>
+              </Classificazione>
+              <Classificazione Id="E.OI.3" ParentId="E.OI" ParentName="Operazioni istituzionali" Importo="0" SaldoIniziale="0" Description="Contributi">
+                <SubList>
+                  <Conto Id="E.OI.3.a" ParentId="E.OI.3" ParentName="Contributi" Importo="0" SaldoIniziale="0" Description="Contributi UIL">
+                    <SubList />
+                  </Conto>
+                  <Conto Id="E.OI.3.b" ParentId="E.OI.3" ParentName="Contributi" Importo="0" SaldoIniziale="0" Description="Contributi ITAL">
+                    <SubList />
+                  </Conto>
+                  <Conto Id="E.OI.3.c" ParentId="E.OI.3" ParentName="Contributi" Importo="0" SaldoIniziale="0" Description="Contributi Artigianato">
+                    <SubList />
+                  </Conto>
+                  <Conto Id="E.OI.3.d" ParentId="E.OI.3" ParentName="Contributi" Importo="0" SaldoIniziale="0" Description="Altri contributi">
+                    <SubList />
+                  </Conto>
+                </SubList>
+              </Classificazione>
+              <Classificazione Id="E.OI.4" ParentId="E.OI" ParentName="Operazioni istituzionali" Importo="0" SaldoIniziale="0" Description="Entrate varie">
+                <SubList>
+                  <Conto Id="E.OI.4.a" ParentId="E.OI.4" ParentName="Entrate varie" Importo="0" SaldoIniziale="0" Description="Dividendi e Quote">
+                    <SubList />
+                  </Conto>
+                  <Conto Id="E.OI.4.b" ParentId="E.OI.4" ParentName="Entrate varie" Importo="0" SaldoIniziale="0" Description="Interessi attivi">
+                    <SubList />
+                  </Conto>
+                  <Conto Id="E.OI.4.c" ParentId="E.OI.4" ParentName="Entrate varie" Importo="0" SaldoIniziale="0" Description="Gettoni presenza">
+                    <SubList />
+                  </Conto>
+                  <Conto Id="E.OI.4.d" ParentId="E.OI.4" ParentName="Entrate varie" Importo="0" SaldoIniziale="0" Description="Altre entrate">
+                    <SubList />
+                  </Conto>
+                </SubList>
+              </Classificazione>
+              
+              <Classificazione Id="E.OI.6" ParentId="E.OI" ParentName="Operazioni istituzionali" Importo="0" SaldoIniziale="0" Description="Proventi straordinari">
+                <SubList>
+                  <Conto Id="E.OI.6.a" ParentId="E.OI.6" ParentName="Proventi straordinari" Importo="0" SaldoIniziale="0" Description="Plusvalenze">
+                    <SubList />
+                  </Conto>
+                  <Conto Id="E.OI.6.b" ParentId="E.OI.6" ParentName="Proventi straordinari" Importo="0" SaldoIniziale="0" Description="Sopravvenienze attive">
+                    <SubList />
+                  </Conto>
+                </SubList>
+              </Classificazione>
+                  
+                    
+                  
+              <Classificazione Id="E.OI.5" ParentId="E.OI" ParentName="Operazioni istituzionali" Importo="0" SaldoIniziale="0" Description="Tesseramento">
+                <SubList>
+                  <Conto Id="E.OI.5.a" ParentId="E.OI.5" ParentName="Tesseramento" Importo="0" SaldoIniziale="0" Description="Tesseramento anno in corso">
+                    <SubList />
+                  </Conto>
+				  <Conto Id="E.OI.5.b" ParentId="E.OI.5" ParentName="Tesseramento" Importo="0" SaldoIniziale="0" Description="Tesseramento anno precedente">
+                    <SubList />
+                  </Conto>
+                </SubList>
+              </Classificazione>
+            </SubList>
+          </Classificazione>
+        </SubList>
+      </Classificazione>
+    </SubList>
+  </Bilancio>
+  <Preventivo Id="" ParentId="" ParentName="" Importo="0" SaldoIniziale="0" Description="">
+    <SubList>
+      <Classificazione Id="A" ParentId="" ParentName="" Importo="0" SaldoIniziale="0" Description="ATTIVITA'">
+        <SubList>
+          <Classificazione Id="A.I" ParentId="A" ParentName="ATTIVITA'" Importo="0" SaldoIniziale="0" Description="Immobilizzazioni">
+            <SubList>
+              <ContoPreventivo Id="A.I.1" ParentId="A.I" ParentName="Immobilizzazioni" Importo="0" SaldoIniziale="0" Description="Immobilizzazioni immateriali">
+                <SubList />
+              </ContoPreventivo>
+              <ContoPreventivo Id="A.I.2" ParentId="A.I" ParentName="Immobilizzazioni" Importo="0" SaldoIniziale="0" Description="Immobilizzazioni materiali">
+                <SubList />
+              </ContoPreventivo>
+              <ContoPreventivo Id="A.I.3" ParentId="A.I" ParentName="Immobilizzazioni" Importo="0" SaldoIniziale="0" Description="Immobili">
+                <SubList />
+              </ContoPreventivo>
+              <ContoPreventivo Id="A.I.4" ParentId="A.I" ParentName="Immobilizzazioni" Importo="0" SaldoIniziale="0" Description="Immobilizzazioni finanziarie">
+                <SubList />
+              </ContoPreventivo>
+            </SubList>
+          </Classificazione>
+
+          <Classificazione Id="A.P" ParentId="A" ParentName="ATTIVITA'" Importo="0" SaldoIniziale="0" Description="Partecipazioni">
+            <SubList>
+              <ContoPreventivo Id="A.P.1" ParentId="A.P" ParentName="Partecipazioni" Importo="0" SaldoIniziale="0" Description="Progetto Sud">
+                <SubList />
+              </ContoPreventivo>
+              <ContoPreventivo Id="A.P.2" ParentId="A.P" ParentName="Partecipazioni" Importo="0" SaldoIniziale="0" Description="Altea">
+                <SubList />
+              </ContoPreventivo>
+              <ContoPreventivo Id="A.P.3" ParentId="A.P" ParentName="Partecipazioni" Importo="0" SaldoIniziale="0" Description="Altre Partecipazioni">
+                <SubList />
+              </ContoPreventivo>
+            </SubList>
+          </Classificazione>
+          
+          <Classificazione Id="A.C" ParentId="A" ParentName="ATTIVITA'" Importo="0" SaldoIniziale="0" Description="Crediti">
+            <SubList>
+              <ContoPreventivo Id="A.C.1" ParentId="A.C" ParentName="Crediti" Importo="0" SaldoIniziale="0" Description="Crediti verso Strutture Regionali">
+                <SubList />
+              </ContoPreventivo>
+              <ContoPreventivo Id="A.C.2" ParentId="A.C" ParentName="Crediti" Importo="0" SaldoIniziale="0" Description="Crediti verso Strutture Territoriali">
+                <SubList />
+              </ContoPreventivo>
+              <ContoPreventivo Id="A.C.3" ParentId="A.C" ParentName="Crediti" Importo="0" SaldoIniziale="0" Description="Crediti verso Enti Bilaterali">
+                <SubList />
+              </ContoPreventivo>
+              <ContoPreventivo Id="A.C.4" ParentId="A.C" ParentName="Crediti" Importo="0" SaldoIniziale="0" Description="Depositi cauzionali">
+                <SubList />
+              </ContoPreventivo>
+              <ContoPreventivo Id="A.C.5" ParentId="A.C" ParentName="Crediti" Importo="0" SaldoIniziale="0" Description="Crediti verso altri">
+                <SubList />
+              </ContoPreventivo>
+            </SubList>
+          </Classificazione>
+          <Classificazione Id="A.D" ParentId="A" ParentName="ATTIVITA'" Importo="0" SaldoIniziale="0" Description="Disponibilità">
+            <SubList>
+              <ContoPreventivo Id="A.D.1" ParentId="A.D" ParentName="Disponibilità" Importo="0" SaldoIniziale="0" Description="Cassa">
+                <SubList />
+              </ContoPreventivo>
+              <Classificazione Id="A.D.2" ParentId="A.D" ParentName="Disponibilità" Importo="0" SaldoIniziale="0" Description="Depositi bancari e postali">
+                <SubList>
+                  <ContoPreventivo Id="A.D.2.a" ParentId="A.D.2" ParentName="Depositi bancari e postali" Importo="0" SaldoIniziale="0" Description="Banca1">
+                    <SubList />
+                  </ContoPreventivo>
+                  <ContoPreventivo Id="A.D.2.b" ParentId="A.D.2" ParentName="Depositi bancari e postali" Importo="0" SaldoIniziale="0" Description="Banca2">
+                    <SubList />
+                  </ContoPreventivo>
+                  <ContoPreventivo Id="A.D.2.c" ParentId="A.D.2" ParentName="Depositi bancari e postali" Importo="0" SaldoIniziale="0" Description="Banca3">
+                    <SubList />
+                  </ContoPreventivo>
+                  <ContoPreventivo Id="A.D.2.d" ParentId="A.D.2" ParentName="Depositi bancari e postali" Importo="0" SaldoIniziale="0" Description="Banca4">
+                    <SubList />
+                  </ContoPreventivo>
+                  <ContoPreventivo Id="A.D.2.e" ParentId="A.D.2" ParentName="Depositi bancari e postali" Importo="0" SaldoIniziale="0" Description="Banca5">
+                    <SubList />
+                  </ContoPreventivo>
+                  <ContoPreventivo Id="A.D.2.f" ParentId="A.D.2" ParentName="Depositi bancari e postali" Importo="0" SaldoIniziale="0" Description="Banca6">
+                    <SubList />
+                  </ContoPreventivo>
+                </SubList>
+              </Classificazione>
+            </SubList>
+          </Classificazione>
+        </SubList>
+      </Classificazione>
+      <Classificazione Id="P" ParentId="" ParentName="" Importo="0" SaldoIniziale="0" Description="PASSIVITA'">
+        <SubList>
+          <Classificazione Id="P.D" ParentId="P" ParentName="PASSIVITA'" Importo="0" SaldoIniziale="0" Description="Debiti a breve">
+            <SubList>
+              <ContoPreventivo Id="P.D.1" ParentId="P.D" ParentName="Debiti a breve" Importo="0" SaldoIniziale="0" Description="Debiti VS UIL">
+                <SubList />
+              </ContoPreventivo>
+              <ContoPreventivo Id="P.D.2" ParentId="P.D" ParentName="Debiti a breve" Importo="0" SaldoIniziale="0" Description="Debiti VS Tesseramento">
+                <SubList />
+              </ContoPreventivo>
+              <ContoPreventivo Id="P.D.3" ParentId="P.D" ParentName="Debiti a breve" Importo="0" SaldoIniziale="0" Description="Debiti tributari e previdenziali">
+                <SubList />
+              </ContoPreventivo>
+              <ContoPreventivo Id="P.D.4" ParentId="P.D" ParentName="Debiti a breve" Importo="0" SaldoIniziale="0" Description="Debiti commerciali">
+                <SubList />
+              </ContoPreventivo>
+              <ContoPreventivo Id="P.D.5" ParentId="P.D" ParentName="Debiti a breve" Importo="0" SaldoIniziale="0" Description="Debiti diversi">
+                <SubList />
+              </ContoPreventivo>
+          </SubList>
+          </Classificazione>
+          <Classificazione Id="P.L" ParentId="P" ParentName="PASSIVITA'" Importo="0" SaldoIniziale="0" Description="Debiti a lungo periodo">
+            <SubList>
+              <ContoPreventivo Id="P.L.1" ParentId="P.L" ParentName="Debiti a lungo periodo" Importo="0" SaldoIniziale="0" Description="Mutuo passivo">
+                <SubList />
+              </ContoPreventivo>         
+          </SubList>
+          </Classificazione>
+          <Classificazione Id="P.F" ParentId="P" ParentName="PASSIVITA'" Importo="0" SaldoIniziale="0" Description="Fondi">
+            <SubList>
+              <ContoPreventivo Id="P.F.1" ParentId="P.F" ParentName="Fondi" Importo="0" SaldoIniziale="0" Description="Accantonamento TFR">
+                <SubList />
+              </ContoPreventivo>
+              <ContoPreventivo Id="P.F.2" ParentId="P.F" ParentName="Fondi" Importo="0" SaldoIniziale="0" Description="Fondi ammortamento">
+                <SubList />
+              </ContoPreventivo>
+              <ContoPreventivo Id="P.F.3" ParentId="P.F" ParentName="Fondi" Importo="0" SaldoIniziale="0" Description="Altri accantonamenti">
+                <SubList />
+              </ContoPreventivo>
+          </SubList>
+          </Classificazione>
+          <Classificazione Id="P.P" ParentId="P" ParentName="PASSIVITA'" Importo="0" SaldoIniziale="0" Description="Patrimonio sociale">
+            <SubList>
+              <ContoPreventivo Id="P.P.1" ParentId="P.P" ParentName="Patrimonio sociale" Importo="0" SaldoIniziale="0" Description="Patrimonio netto">
+                <SubList />
+              </ContoPreventivo>  
+          </SubList>
+          </Classificazione>
+        </SubList>
+      </Classificazione>
+      <Classificazione Id="S" ParentId="" ParentName="" Importo="0" SaldoIniziale="0" Description="SPESE">
+        <SubList>
+          <Classificazione Id="S.OI" ParentId="S" ParentName="SPESE" Importo="0" SaldoIniziale="0" Description="Operazioni istituzionali">
+            <SubList>
+              <Classificazione Id="S.OI.1" ParentId="S.OI" ParentName="Operazioni istituzionali" Importo="0" SaldoIniziale="0" Description="Spese politico organizzative">
+                <SubList>
+                  <ContoPreventivo Id="S.OI.1.a" ParentId="S.OI.1" ParentName="Spese politico organizzative" Importo="0" SaldoIniziale="0" Description="Attività organizzativa - Sindacale">
+                    <SubList />
+                  </ContoPreventivo>
+                  <ContoPreventivo Id="S.OI.1.b" ParentId="S.OI.1" ParentName="Spese politico organizzative" Importo="0" SaldoIniziale="0" Description="Informazione e propaganda">
+                    <SubList />
+                  </ContoPreventivo>
+                  <ContoPreventivo Id="S.OI.1.c" ParentId="S.OI.1" ParentName="Spese politico organizzative" Importo="0" SaldoIniziale="0" Description="Attività di formazione">
+                    <SubList />
+                  </ContoPreventivo>
+                  <ContoPreventivo Id="S.OI.1.d" ParentId="S.OI.1" ParentName="Spese politico organizzative" Importo="0" SaldoIniziale="0" Description="Convegni e Manifestazioni">
+                    <SubList />
+                  </ContoPreventivo>
+              </SubList>
+              </Classificazione>
+              <Classificazione Id="S.OI.2" ParentId="S.OI" ParentName="Operazioni istituzionali" Importo="0" SaldoIniziale="0" Description="Spese del personale">
+                <SubList>
+                  <ContoPreventivo Id="S.OI.2.a" ParentId="S.OI.2" ParentName="Spese del personale" Importo="0" SaldoIniziale="0" Description="Retribuzioni personale e collaborazioni">
+                    <SubList />
+                  </ContoPreventivo>
+                  <ContoPreventivo Id="S.OI.2.b" ParentId="S.OI.2" ParentName="Spese del personale" Importo="0" SaldoIniziale="0" Description="Professionisti">
+                    <SubList />
+                  </ContoPreventivo>
+                  <ContoPreventivo Id="S.OI.2.c" ParentId="S.OI.2" ParentName="Spese del personale" Importo="0" SaldoIniziale="0" Description="IRPEF Ritenute e Addizionali">
+                    <SubList />
+                  </ContoPreventivo>
+                  <ContoPreventivo Id="S.OI.2.d" ParentId="S.OI.2" ParentName="Spese del personale" Importo="0" SaldoIniziale="0" Description="Contributi previdenziali">
+                    <SubList />
+                  </ContoPreventivo>
+                  <ContoPreventivo Id="S.OI.2.e" ParentId="S.OI.2" ParentName="Spese del personale" Importo="0" SaldoIniziale="0" Description="IRAP">
+                    <SubList />
+                  </ContoPreventivo>
+                  <ContoPreventivo Id="S.OI.2.f" ParentId="S.OI.2" ParentName="Spese del personale" Importo="0" SaldoIniziale="0" Description="Trattenute sindacali">
+                    <SubList />
+                  </ContoPreventivo>
+                  <ContoPreventivo Id="S.OI.2.g" ParentId="S.OI.2" ParentName="Spese del personale" Importo="0" SaldoIniziale="0" Description="Liquidazione TFR">
+                    <SubList />
+                  </ContoPreventivo>
+              </SubList>
+              </Classificazione>
+              <Classificazione Id="S.OI.3" ParentId="S.OI" ParentName="Operazioni istituzionali" Importo="0" SaldoIniziale="0" Description="Contributi organizzativi">
+                <SubList>
+                  <ContoPreventivo Id="S.OI.3.a" ParentId="S.OI.3" ParentName="Contributi organizzativi" Importo="0" SaldoIniziale="0" Description="Strutture regionali">
+                    <SubList />
+                  </ContoPreventivo>
+                  <ContoPreventivo Id="S.OI.3.b" ParentId="S.OI.3" ParentName="Contributi organizzativi" Importo="0" SaldoIniziale="0" Description="Strutture territoriali">
+                    <SubList />
+                  </ContoPreventivo>
+                  <ContoPreventivo Id="S.OI.3.c" ParentId="S.OI.3" ParentName="Contributi organizzativi" Importo="0" SaldoIniziale="0" Description="Federazioni internazionali">
+                    <SubList />
+                  </ContoPreventivo>
+                  <ContoPreventivo Id="S.OI.3.d" ParentId="S.OI.3" ParentName="Contributi organizzativi" Importo="0" SaldoIniziale="0" Description="Altri contributi">
+                    <SubList />
+                  </ContoPreventivo>
+              </SubList>
+              </Classificazione>
+              <Classificazione Id="S.OI.6" ParentId="S.OI" ParentName="Operazioni istituzionali" Importo="0" SaldoIniziale="0" Description="Spese generali">
+                <SubList>
+                  <ContoPreventivo Id="S.OI.6.a" ParentId="S.OI.6" ParentName="Spese generali" Importo="0" SaldoIniziale="0" Description="Utenze e servizi">
+                    <SubList />
+                  </ContoPreventivo>
+                  <ContoPreventivo Id="S.OI.6.b" ParentId="S.OI.6" ParentName="Spese generali" Importo="0" SaldoIniziale="0" Description="Manutenzioni">
+                    <SubList />
+                  </ContoPreventivo>
+                  <ContoPreventivo Id="S.OI.6.c" ParentId="S.OI.6" ParentName="Spese generali" Importo="0" SaldoIniziale="0" Description="Affitto e condominio">
+                    <SubList />
+                  </ContoPreventivo>
+                  <ContoPreventivo Id="S.OI.6.d" ParentId="S.OI.6" ParentName="Spese generali" Importo="0" SaldoIniziale="0" Description="Cancelleria">
+                    <SubList />
+                  </ContoPreventivo>
+                  <ContoPreventivo Id="S.OI.6.e" ParentId="S.OI.6" ParentName="Spese generali" Importo="0" SaldoIniziale="0" Description="Polizze assicurative">
+                    <SubList />
+                  </ContoPreventivo>
+                  <ContoPreventivo Id="S.OI.6.f" ParentId="S.OI.6" ParentName="Spese generali" Importo="0" SaldoIniziale="0" Description="Rata mutuo passivo">
+                    <SubList />
+                  </ContoPreventivo>
+                  <ContoPreventivo Id="S.OI.6.g" ParentId="S.OI.6" ParentName="Spese generali" Importo="0" SaldoIniziale="0" Description="Imposte e tasse">
+                    <SubList />
+                  </ContoPreventivo>
+                  <ContoPreventivo Id="S.OI.6.h" ParentId="S.OI.6" ParentName="Spese generali" Importo="0" SaldoIniziale="0" Description="Interessi ed oneri bancari">
+                    <SubList />
+                  </ContoPreventivo>
+                  <ContoPreventivo Id="S.OI.6.i" ParentId="S.OI.6" ParentName="Spese generali" Importo="0" SaldoIniziale="0" Description="Altre spese">
+                    <SubList />
+                  </ContoPreventivo>
+              </SubList>
+              </Classificazione>
+              <Classificazione Id="S.OI.7" ParentId="S.OI" ParentName="Operazioni istituzionali" Importo="0" SaldoIniziale="0" Description="Spese beni durevoli">
+                <SubList>
+                  <ContoPreventivo Id="S.OI.7.a" ParentId="S.OI.7" ParentName="Spese beni durevoli" Importo="0" SaldoIniziale="0" Description="Hardware e software">
+                    <SubList />
+                  </ContoPreventivo>
+                  <ContoPreventivo Id="S.OI.7.b" ParentId="S.OI.7" ParentName="Spese beni durevoli" Importo="0" SaldoIniziale="0" Description="Mobili e arredi">
+                    <SubList />
+                  </ContoPreventivo>
+                  <ContoPreventivo Id="S.OI.7.c" ParentId="S.OI.7" ParentName="Spese beni durevoli" Importo="0" SaldoIniziale="0" Description="Autoveicoli">
+                    <SubList />
+                  </ContoPreventivo>
+                  <ContoPreventivo Id="S.OI.7.d" ParentId="S.OI.7" ParentName="Spese beni durevoli" Importo="0" SaldoIniziale="0" Description="Attrezzature">
+                    <SubList />
+                  </ContoPreventivo>
+              </SubList>
+              </Classificazione>
+              
+                
+              <Classificazione Id="S.OI.9" ParentId="S.OI" ParentName="Operazioni istituzionali" Importo="0" SaldoIniziale="0" Description="Oneri straordinari">
+                <SubList>
+                  <ContoPreventivo Id="S.OI.9.a" ParentId="S.OI.9" ParentName="Oneri straordinari" Importo="0" SaldoIniziale="0" Description="Minusvalenze">
+                    <SubList />
+                  </ContoPreventivo>
+                  <ContoPreventivo Id="S.OI.9.b" ParentId="S.OI.9" ParentName="Oneri straordinari" Importo="0" SaldoIniziale="0" Description="Sopravvenienze passive">
+                    <SubList />
+                  </ContoPreventivo>
+                </SubList>
+              </Classificazione>
+                    
+                  
+              <Classificazione Id="S.OI.8" ParentId="S.OI" ParentName="Operazioni istituzionali" Importo="0" SaldoIniziale="0" Description="Tesseramento">
+                <SubList>
+                  <ContoPreventivo Id="S.OI.8.a" ParentId="S.OI.8" ParentName="Tesseramento" Importo="0" SaldoIniziale="0" Description="Anno in corso">
+                    <SubList />
+                  </ContoPreventivo>
+                  <ContoPreventivo Id="S.OI.8.b" ParentId="S.OI.8" ParentName="Tesseramento" Importo="0" SaldoIniziale="0" Description="Anno precedente">
+                    <SubList />
+                  </ContoPreventivo>
+              </SubList>
+              </Classificazione>
+            </SubList>
+          </Classificazione>
+        </SubList>
+      </Classificazione>
+      <Classificazione Id="E" ParentId="" ParentName="" Importo="0" SaldoIniziale="0" Description="ENTRATE">
+        <SubList>
+          <Classificazione Id="E.OI" ParentId="E" ParentName="ENTRATE" Importo="0" SaldoIniziale="0" Description="Operazioni istituzionali">
+            <SubList>
+              <Classificazione Id="E.OI.1" ParentId="E.OI" ParentName="Operazioni istituzionali" Importo="0" SaldoIniziale="0" Description="Contributi territoriali">
+                <SubList>
+                  <ContoPreventivo Id="E.OI.1.a" ParentId="E.OI.1" ParentName="Contributi territoriali" Importo="0" SaldoIniziale="0" Description="Quote di adesione contrattuale CASSA EDILE">
+                    <SubList />
+                  </ContoPreventivo>
+                  <ContoPreventivo Id="E.OI.1.b" ParentId="E.OI.1" ParentName="Contributi territoriali" Importo="0" SaldoIniziale="0" Description="Quote di adesione contrattuale EDILCASSA">
+                    <SubList />
+                  </ContoPreventivo>
+                  <ContoPreventivo Id="E.OI.1.c" ParentId="E.OI.1" ParentName="Contributi territoriali" Importo="0" SaldoIniziale="0" Description="Quote di adesione contrattuale ALTRE CASSE">
+                    <SubList />
+                  </ContoPreventivo>
+              </SubList>
+              </Classificazione>
+              <Classificazione Id="E.OI.3" ParentId="E.OI" ParentName="Operazioni istituzionali" Importo="0" SaldoIniziale="0" Description="Contributi">
+                <SubList>
+                  <ContoPreventivo Id="E.OI.3.a" ParentId="E.OI.3" ParentName="Contributi" Importo="0" SaldoIniziale="0" Description="Contributi UIL">
+                    <SubList />
+                  </ContoPreventivo>
+                  <ContoPreventivo Id="E.OI.3.b" ParentId="E.OI.3" ParentName="Contributi" Importo="0" SaldoIniziale="0" Description="Contributi ITAL">
+                    <SubList />
+                  </ContoPreventivo>
+                  <ContoPreventivo Id="E.OI.3.c" ParentId="E.OI.3" ParentName="Contributi" Importo="0" SaldoIniziale="0" Description="Contributi Artigianato">
+                    <SubList />
+                  </ContoPreventivo>
+                  <ContoPreventivo Id="E.OI.3.d" ParentId="E.OI.3" ParentName="Contributi" Importo="0" SaldoIniziale="0" Description="Altri contributi">
+                    <SubList />
+                  </ContoPreventivo>
+              </SubList>
+              </Classificazione>
+              <Classificazione Id="E.OI.4" ParentId="E.OI" ParentName="Operazioni istituzionali" Importo="0" SaldoIniziale="0" Description="Entrate varie">
+                <SubList>
+                  <ContoPreventivo Id="E.OI.4.a" ParentId="E.OI.4" ParentName="Entrate varie" Importo="0" SaldoIniziale="0" Description="Dividendi e Quote">
+                    <SubList />
+                  </ContoPreventivo>
+                  <ContoPreventivo Id="E.OI.4.b" ParentId="E.OI.4" ParentName="Entrate varie" Importo="0" SaldoIniziale="0" Description="Interessi attivi">
+                    <SubList />
+                  </ContoPreventivo>
+                  <ContoPreventivo Id="E.OI.4.c" ParentId="E.OI.4" ParentName="Entrate varie" Importo="0" SaldoIniziale="0" Description="Gettoni presenza">
+                    <SubList />
+                  </ContoPreventivo>
+                  <ContoPreventivo Id="E.OI.4.d" ParentId="E.OI.4" ParentName="Entrate varie" Importo="0" SaldoIniziale="0" Description="Altre entrate">
+                    <SubList />
+                  </ContoPreventivo>
+              </SubList>
+              </Classificazione>
+              
+              <Classificazione Id="E.OI.6" ParentId="E.OI" ParentName="Operazioni istituzionali" Importo="0" SaldoIniziale="0" Description="Proventi straordinari">
+                <SubList>
+                  <ContoPreventivo Id="E.OI.6.a" ParentId="E.OI.6" ParentName="Proventi straordinari" Importo="0" SaldoIniziale="0" Description="Plusvalenze">
+                    <SubList />
+                  </ContoPreventivo>
+                  <ContoPreventivo Id="E.OI.6.b" ParentId="E.OI.6" ParentName="Proventi straordinari" Importo="0" SaldoIniziale="0" Description="Sopravvenienze attive">
+                    <SubList />
+                  </ContoPreventivo>
+                </SubList>
+              </Classificazione>
+                  
+                    
+                  
+              <Classificazione Id="E.OI.5" ParentId="E.OI" ParentName="Operazioni istituzionali" Importo="0" SaldoIniziale="0" Description="Tesseramento">
+                <SubList>
+                  <ContoPreventivo Id="E.OI.5.a" ParentId="E.OI.5" ParentName="Tesseramento" Importo="0" SaldoIniziale="0" Description="Tesseramento anno in corso">
+                    <SubList />
+                  </ContoPreventivo>
+				  <ContoPreventivo Id="E.OI.5.b" ParentId="E.OI.5" ParentName="Tesseramento" Importo="0" SaldoIniziale="0" Description="Tesseramento anno precedente">
+                    <SubList />
+                  </ContoPreventivo>
+              </SubList>
+              </Classificazione>
+            </SubList>
+          </Classificazione>
+        </SubList>
+      </Classificazione>
+    </SubList>
+  </Preventivo>
+  <StatoPatrimoniale>
+    <Mobili />
+    <Chiusure />
+    <AccantonamentiTFR />
+    <Autos />
+    <Polizze />
+    <Immobili />
+    <Depositi />
+  </StatoPatrimoniale>
+</Rendiconto>

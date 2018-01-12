@@ -1,0 +1,90 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="BilancioFenealgest.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="ModelloRegionale" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Regionale.xlt</Value>
+    </Setting>
+    <Setting Name="SerachType" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">1</Value>
+    </Setting>
+    <Setting Name="FileFreeTemplate" Type="System.String" Scope="User">
+      <Value Profile="(Default)">templateNazionale.xml</Value>
+    </Setting>
+    <Setting Name="InventarioScriviTipoInventario" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="InventarioScriviIntestazioniTipoInventario" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="InventarioColonnaIniziale" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">1</Value>
+    </Setting>
+    <Setting Name="InventarioRigaIniziale" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">4</Value>
+    </Setting>
+    <Setting Name="InventarioDisegnaOrizzontalmente" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="InventarioRigheFraTipiInventario" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">3</Value>
+    </Setting>
+    <Setting Name="VisibilityTabPreventivo" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="RaiseChangeDataEvent" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="HidedenContoCommmandText" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Conto nascosto</Value>
+    </Setting>
+    <Setting Name="HiddenContoVisible" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="AppStyleName" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Noesis</Value>
+    </Setting>
+    <Setting Name="Header" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Feneal</Value>
+    </Setting>
+    <Setting Name="ModelloProvinciale" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Provinciale.xlt</Value>
+    </Setting>
+    <Setting Name="MaxColPrimaColonna" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">7</Value>
+    </Setting>
+    <Setting Name="MaxColSecondaColonna" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">25</Value>
+    </Setting>
+    <Setting Name="MaxRowPrimaColonna" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">156</Value>
+    </Setting>
+    <Setting Name="MaxrowSecondaColonna" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">80</Value>
+    </Setting>
+    <Setting Name="CreateFromTemplate" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="ModelloStampaTemplate" Type="System.String" Scope="User">
+      <Value Profile="(Default)">modello.xlt</Value>
+    </Setting>
+    <Setting Name="NomeFileDaSalvare" Type="System.String" Scope="User">
+      <Value Profile="(Default)">rendiconto.xls</Value>
+    </Setting>
+    <Setting Name="TestoProprietario" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Feneal di</Value>
+    </Setting>
+    <Setting Name="InventarioFeneal" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="VisibilityTabStatoPatrimoniale" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="IsFeneal" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="IsRlst" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

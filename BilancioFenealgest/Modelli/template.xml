@@ -1,0 +1,256 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Rendiconto xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Proprietario="" IsRegionale="false" Year="2010" Province="MATERA" Region="BASILICATA" xmlns="www.fenealgestweb.it">
+  <Bilancio Id="" ParentId="" ParentName="" Importo="0" Description="">
+    <SubList>
+
+
+		<Classificazione Id="A" ParentId="" ParentName="" Importo="0" SaldoIniziale="0" Description="ATTIVITA'">
+			<SubList>
+				
+				<Classificazione Id="A.D" ParentId="A" ParentName="ATTIVITA'" Importo="0" SaldoIniziale="0" Description="Disponibilità">
+					<SubList>
+						<Conto Id="A.D.1" ParentId="A.D" ParentName="Disponibilità" Importo="0" SaldoIniziale="0" Description="Cassa">
+							<SubList />
+						</Conto>
+						<Classificazione Id="A.D.2" ParentId="A.D" ParentName="Disponibilità" Importo="0" SaldoIniziale="0" Description="Depositi bancari e postali">
+							<SubList>
+								<Conto Id="A.D.2.a" ParentId="A.D.2" ParentName="Depositi bancari e postali" Importo="0" SaldoIniziale="0" Description="Banca1">
+									<SubList />
+								</Conto>
+								<Conto Id="A.D.2.b" ParentId="A.D.2" ParentName="Depositi bancari e postali" Importo="0" SaldoIniziale="0" Description="Banca2">
+									<SubList />
+								</Conto>
+								<Conto Id="A.D.2.c" ParentId="A.D.2" ParentName="Depositi bancari e postali" Importo="0" SaldoIniziale="0" Description="Banca3">
+									<SubList />
+								</Conto>
+							</SubList>
+						</Classificazione>
+					</SubList>
+				</Classificazione>
+			</SubList>
+		</Classificazione>
+		<Classificazione Id="P" ParentId="" ParentName="" Importo="0" SaldoIniziale="0" Description="PASSIVITA'">
+			<SubList>
+				
+				<Classificazione Id="P.P" ParentId="P" ParentName="PASSIVITA'" Importo="0" SaldoIniziale="0" Description="Patrimonio sociale">
+					<SubList>
+						<Conto Id="P.P.1" ParentId="P.P" ParentName="Patrimonio sociale" Importo="0" SaldoIniziale="0" Description="Patrimonio netto">
+							<SubList />
+						</Conto>
+					</SubList>
+				</Classificazione>
+
+
+
+				<Classificazione Id="P.D" ParentId="P" ParentName="PASSIVITA'" Importo="0" SaldoIniziale="0" Description="Debiti">
+					<SubList>
+						<Conto Id="P.D.1" ParentId="P.D" ParentName="Debiti" Importo="0" SaldoIniziale="0" Description="Debiti per anticipazioni Feneal">
+							<SubList />
+						</Conto>
+					</SubList>
+				</Classificazione>
+				
+				
+			</SubList>
+		</Classificazione>
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+      <Classificazione Id="S" ParentId="" ParentName="" Importo="0" Description="SPESE">
+        <SubList>
+	<Classificazione Id="S.1" ParentId="S" ParentName="SPESE" Importo="0" Description="Spese per attività">
+                <SubList>
+                  <Conto Id="S.1.a" ParentId="S.1" ParentName="Spese per attività" Importo="0" Description="Rimborsi spese">
+                    <SubList />
+                  </Conto>
+                  <Conto Id="S.1.b" ParentId="S.1" ParentName="Spese per attività" Importo="0" Description="Attività di informazione e di formazione">
+                    <SubList />
+                  </Conto>
+                </SubList>
+              </Classificazione>
+              <Classificazione Id="S.2" ParentId="S" ParentName="SPESE" Importo="0" Description="Spese del personale">
+                <SubList>
+                  <Conto Id="S.2.a" ParentId="S.2" ParentName="Spese del personale" Importo="0" Description="Retribuzioni personale e collaboratori">
+                    <SubList />
+                  </Conto>
+                  
+                </SubList>
+              </Classificazione>
+              <Classificazione Id="S.3" ParentId="S" ParentName="SPESE" Importo="0" Description="Spese generali">
+                <SubList>
+                  <Conto Id="S.3.a" ParentId="S.3" ParentName="Spese generali" Importo="0" Description="Postali - Telefoniche">
+                    <SubList />
+                  </Conto>
+                  <Conto Id="S.3.b" ParentId="S.3" ParentName="Spese generali" Importo="0" Description="Cancelleria">
+                    <SubList />
+                  </Conto>
+                  <Conto Id="S.3.c" ParentId="S.3" ParentName="Spese generali" Importo="0" Description="Polizze assicurative">
+                    <SubList />
+                  </Conto>
+                  <Conto Id="S.3.d" ParentId="S.3" ParentName="Spese generali" Importo="0" Description="Altre spese">
+                    <SubList />
+                  </Conto>
+					<Conto Id="S.3.e" ParentId="S.3" ParentName="Spese generali" Importo="0" Description="Interessi ed oneri bancari">
+						<SubList />
+					</Conto>					
+                </SubList>
+              </Classificazione>
+        </SubList>
+      </Classificazione>
+      <Classificazione Id="E" ParentId="" ParentName="" Importo="0" Description="ENTRATE">
+        <SubList>
+ 	          <Conto Id="E.1" ParentId="E" ParentName="ENTRATE" Importo="0" Description="Contributo attività RLST">
+              <SubList />
+            </Conto>
+          <Conto Id="E.2" ParentId="E" ParentName="ENTRATE" Importo="0" Description="Altre entrate">
+            <SubList />
+          </Conto>
+        </SubList>
+      </Classificazione>
+    </SubList>
+  </Bilancio>
+  <Preventivo Id="" ParentId="" ParentName="" Importo="0" Description="">
+    <SubList>
+
+
+		<Classificazione Id="A" ParentId="" ParentName="" Importo="0" SaldoIniziale="0" Description="ATTIVITA'">
+			<SubList>
+				<Classificazione Id="A.D" ParentId="A" ParentName="ATTIVITA'" Importo="0" SaldoIniziale="0" Description="Disponibilità">
+					<SubList>
+						<ContoPreventivo Id="A.D.1" ParentId="A.D" ParentName="Disponibilità" Importo="0" SaldoIniziale="0" Description="Cassa">
+							<SubList />
+						</ContoPreventivo>
+						<Classificazione Id="A.D.2" ParentId="A.D" ParentName="Disponibilità" Importo="0" SaldoIniziale="0" Description="Depositi bancari e postali">
+							<SubList>
+								<ContoPreventivo Id="A.D.2.a" ParentId="A.D.2" ParentName="Depositi bancari e postali" Importo="0" SaldoIniziale="0" Description="Banca1">
+									<SubList />
+								</ContoPreventivo>
+								<ContoPreventivo Id="A.D.2.b" ParentId="A.D.2" ParentName="Depositi bancari e postali" Importo="0" SaldoIniziale="0" Description="Banca2">
+									<SubList />
+								</ContoPreventivo>
+								<ContoPreventivo Id="A.D.2.c" ParentId="A.D.2" ParentName="Depositi bancari e postali" Importo="0" SaldoIniziale="0" Description="Banca3">
+									<SubList />
+								</ContoPreventivo>
+							</SubList>
+						</Classificazione>
+					</SubList>
+				</Classificazione>
+			</SubList>
+		</Classificazione>
+		<Classificazione Id="P" ParentId="" ParentName="" Importo="0" SaldoIniziale="0" Description="PASSIVITA'">
+			<SubList>
+
+				<Classificazione Id="P.P" ParentId="P" ParentName="PASSIVITA'" Importo="0" SaldoIniziale="0" Description="Patrimonio sociale">
+					<SubList>
+						<ContoPreventivo Id="P.P.1" ParentId="P.P" ParentName="Patrimonio sociale" Importo="0" SaldoIniziale="0" Description="Patrimonio netto">
+							<SubList />
+						</ContoPreventivo>
+					</SubList>
+				</Classificazione>
+				
+				
+				<Classificazione Id="P.D" ParentId="P" ParentName="PASSIVITA'" Importo="0" SaldoIniziale="0" Description="Debiti">
+					<SubList>
+						<ContoPreventivo Id="P.D.1" ParentId="P.D" ParentName="Debiti" Importo="0" SaldoIniziale="0" Description="Debiti per anticipazioni Feneal">
+							<SubList />
+						</ContoPreventivo>
+					</SubList>
+				</Classificazione>
+			</SubList>
+		</Classificazione>
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+      <Classificazione Id="S" ParentId="" ParentName="" Importo="0" Description="SPESE">
+        <SubList>
+          <Classificazione Id="S.1" ParentId="S" ParentName="SPESE" Importo="0" Description="Spese per attività">
+                <SubList>
+                  <ContoPreventivo Id="S.1.a" ParentId="S.1" ParentName="Spese per attività" Importo="0" Description="Rimborsi spese">
+                    <SubList />
+                  </ContoPreventivo>
+                  <ContoPreventivo Id="S.1.b" ParentId="S.1" ParentName="Spese per attività" Importo="0" Description="Attività di informazione e di formazione">
+                    <SubList />
+                  </ContoPreventivo>
+                </SubList>
+              </Classificazione>
+              <Classificazione Id="S.2" ParentId="S" ParentName="SPESE" Importo="0" Description="Spese del personale">
+                <SubList>
+                  <ContoPreventivo Id="S.2.a" ParentId="S.2" ParentName="Spese del personale" Importo="0" Description="Retribuzioni personale e collaboratori">
+                    <SubList />
+                  </ContoPreventivo>
+                  
+                </SubList>
+              </Classificazione>
+              <Classificazione Id="S.3" ParentId="S" ParentName="SPESE" Importo="0" Description="Spese generali">
+                <SubList>
+                  <ContoPreventivo Id="S.3.a" ParentId="S.3" ParentName="Spese generali" Importo="0" Description="Postali - Telefoniche">
+                    <SubList />
+                  </ContoPreventivo>
+                  <ContoPreventivo Id="S.3.b" ParentId="S.3" ParentName="Spese generali" Importo="0" Description="Cancelleria">
+                    <SubList />
+                  </ContoPreventivo>
+                  <ContoPreventivo Id="S.3.c" ParentId="S.3" ParentName="Spese generali" Importo="0" Description="Polizze assicurative">
+                    <SubList />
+                  </ContoPreventivo>
+                  <ContoPreventivo Id="S.3.d" ParentId="S.3" ParentName="Spese generali" Importo="0" Description="Altre spese">
+                    <SubList />
+                  </ContoPreventivo>
+					<ContoPreventivo Id="S.3.e" ParentId="S.3" ParentName="Spese generali" Importo="0" Description="Interessi ed oneri bancari">
+						<SubList />
+					</ContoPreventivo>
+                </SubList>
+              </Classificazione>
+        </SubList>
+      </Classificazione>
+      <Classificazione Id="E" ParentId="" ParentName="" Importo="0" Description="ENTRATE">
+        <SubList>
+	            <ContoPreventivo Id="E.1" ParentId="E" ParentName="ENTRATE" Importo="0" Description="Contributo attività RLST">
+                    <SubList />
+              </ContoPreventivo>
+          <ContoPreventivo Id="E.2" ParentId="E" ParentName="ENTRATE" Importo="0" Description="Altre entrate">
+            <SubList />
+          </ContoPreventivo>
+        </SubList>
+      </Classificazione>
+    </SubList>
+  </Preventivo>
+  <StatoPatrimoniale>
+    <Autos />
+    <Polizze />
+    <Immobili />
+    <Depositi />
+  </StatoPatrimoniale>
+</Rendiconto>

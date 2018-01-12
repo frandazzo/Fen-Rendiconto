@@ -1,0 +1,495 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{DD5BB4F0-F41A-4077-84DE-02CC5C65A7B8}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>BilancioFenealgest</RootNamespace>
+    <AssemblyName>GestAmm</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <SccProjectName>
+    </SccProjectName>
+    <SccLocalPath>
+    </SccLocalPath>
+    <SccAuxPath>
+    </SccAuxPath>
+    <SccProvider>
+    </SccProvider>
+    <ApplicationIcon>Money-Calculator.ico</ApplicationIcon>
+    <IsWebBootstrapper>true</IsWebBootstrapper>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <UpgradeBackupLocation />
+    <PublishUrl>http://localhost/BilancioFenealgest/</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Web</InstallFrom>
+    <UpdateEnabled>true</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>TRACE;DEBUG</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <PlatformTarget>x86</PlatformTarget>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <PlatformTarget>x86</PlatformTarget>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="DevExpress.BonusSkins.v13.2, Version=13.2.13.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.Charts.v13.2.Core, Version=13.2.13.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.Printing.v13.2.Core, Version=13.2.13.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.Data.v13.2, Version=13.2.13.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.PivotGrid.v13.2.Core, Version=13.2.13.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.Office.v13.2.Core, Version=13.2.13.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.RichEdit.v13.2.Core, Version=13.2.13.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.Utils.v13.2, Version=13.2.13.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.XtraBars.v13.2, Version=13.2.13.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.XtraCharts.v13.2.Wizard, Version=13.2.13.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.XtraCharts.v13.2, Version=13.2.13.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.XtraEditors.v13.2, Version=13.2.13.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.XtraPrinting.v13.2, Version=13.2.13.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.XtraLayout.v13.2, Version=13.2.13.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.XtraNavBar.v13.2, Version=13.2.13.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.XtraPivotGrid.v13.2, Version=13.2.13.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.XtraReports.v13.2.Extensions, Version=13.2.13.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.Sparkline.v13.2.Core, Version=13.2.13.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.Utils.v13.2.UI, Version=13.2.13.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.XtraReports.v13.2, Version=13.2.13.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.XtraRichEdit.v13.2, Version=13.2.13.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="WIN.TECHNICAL.MIDDLEWARE, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\dlls\WIN.TECHNICAL.MIDDLEWARE.dll</HintPath>
+    </Reference>
+    <Reference Include="WIN.TECHNICAL.SECURITY, Version=2.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\dlls\WIN.TECHNICAL.SECURITY.dll</HintPath>
+    </Reference>
+    <Reference Include="WIN.TECHNICAL.VB.UTILS, Version=6.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\dlls\WIN.TECHNICAL.VB.UTILS.dll</HintPath>
+    </Reference>
+    <Reference Include="WinControls.ListView, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\dlls\WinControls.ListView.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ParamCreator.cs" />
+    <Compile Include="ProgramParameters.cs" />
+    <Compile Include="UI\PrintClasses\XtraReport1.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="UI\PrintClasses\XtraReport1.Designer.cs">
+      <DependentUpon>XtraReport1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\SplashForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\SplashForm.Designer.cs">
+      <DependentUpon>SplashForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\UIComponents\DesktopCombo.cs" />
+    <Compile Include="UI\UIComponents\DesktopFolderBrowserNavigator.cs" />
+    <Compile Include="UI\UIComponents\DesktopGridContainer.cs" />
+    <Compile Include="UI\UIComponents\DesktopLabel.cs" />
+    <Compile Include="UI\UIComponents\DesktopTreelist.cs" />
+    <Compile Include="UI\UIComponents\DesktopTreeListNode.cs" />
+    <Compile Include="UI\UIComponents\DevDesktopCombo.cs" />
+    <Compile Include="UI\UIComponents\DevDesktopComboConto.cs" />
+    <Compile Include="UI\UIComponents\FormSelectData.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\UIComponents\FormSelectData.Designer.cs">
+      <DependentUpon>FormSelectData.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\UIComponents\FrmBilancio.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\UIComponents\FrmBilancio.Designer.cs">
+      <DependentUpon>FrmBilancio.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\UIComponents\DesktopMessageBox.cs" />
+    <Compile Include="UI\UIComponents\DesktopOpenFileDialog.cs" />
+    <Compile Include="UI\UIComponents\Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\UIComponents\Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="UI\UIComponents\FrmCambiaNomeBanca.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\UIComponents\FrmCambiaNomeBanca.Designer.cs">
+      <DependentUpon>FrmCambiaNomeBanca.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\UIComponents\FrmContropartita.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\UIComponents\FrmContropartita.Designer.cs">
+      <DependentUpon>FrmContropartita.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\UIComponents\MyBarLocalizer.cs" />
+    <EmbeddedResource Include="Properties\licenses.licx" />
+    <EmbeddedResource Include="UI\PrintClasses\XtraReport1.resx">
+      <DependentUpon>XtraReport1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\SplashForm.resx">
+      <DependentUpon>SplashForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\UIComponents\FormSelectData.resx">
+      <DependentUpon>FormSelectData.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\UIComponents\FrmBilancio.resx">
+      <DependentUpon>FrmBilancio.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\UIComponents\Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\UIComponents\FrmCambiaNomeBanca.resx">
+      <DependentUpon>FrmCambiaNomeBanca.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\UIComponents\FrmContropartita.resx">
+      <DependentUpon>FrmContropartita.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\UIComponents\FrmElaborazioneInCorso.resx">
+      <DependentUpon>FrmElaborazioneInCorso.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\UIComponents\FrmExportBilancio.resx">
+      <DependentUpon>FrmExportBilancio.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\UIComponents\FrmImportoConto.resx">
+      <DependentUpon>FrmImportoConto.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\UIComponents\FrmRendicontoHeader.resx">
+      <DependentUpon>FrmRendicontoHeader.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\UIComponents\FrmScritturaSingola.resx">
+      <DependentUpon>FrmScritturaSingola.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\UIComponents\FrmScritturaSingolaContoRLST.resx">
+      <DependentUpon>FrmScritturaSingolaContoRLST.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\UIComponents\FrmScritture.resx">
+      <DependentUpon>FrmScritture.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\UIComponents\FrmScrittureContoRLST.resx">
+      <DependentUpon>FrmScrittureContoRLST.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\UIComponents\FrmSituazioneFianziaria.resx">
+      <DependentUpon>FrmSituazioneFianziaria.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\UIComponents\FrmTaglia.resx">
+      <DependentUpon>FrmTaglia.cs</DependentUpon>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="app.config" />
+    <None Include="Assets\Linee guida bilancio feneal.pdf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Assets\Manuale utente.pdf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="DatiSpecificiNazionale\GestAmm.exe.config">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Modelli\Nazionale.xlt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Modelli\Scritture.xlt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Modelli\ScrittureContiMultipli.xlt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Modelli\ScrittureDeleghe.xlt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Modelli\ScritturePersonale.xlt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="UI\UIComponents\FrmElaborazioneInCorso.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\UIComponents\FrmElaborazioneInCorso.Designer.cs">
+      <DependentUpon>FrmElaborazioneInCorso.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\UIComponents\FrmExportBilancio.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\UIComponents\FrmExportBilancio.Designer.cs">
+      <DependentUpon>FrmExportBilancio.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\UIComponents\FrmImportoConto.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\UIComponents\FrmImportoConto.Designer.cs">
+      <DependentUpon>FrmImportoConto.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\UIComponents\FrmRendicontoHeader.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\UIComponents\FrmRendicontoHeader.Designer.cs">
+      <DependentUpon>FrmRendicontoHeader.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\UIComponents\FrmScritturaSingola.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\UIComponents\FrmScritturaSingola.Designer.cs">
+      <DependentUpon>FrmScritturaSingola.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\UIComponents\FrmScritturaSingolaContoRLST.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\UIComponents\FrmScritturaSingolaContoRLST.Designer.cs">
+      <DependentUpon>FrmScritturaSingolaContoRLST.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\UIComponents\FrmScritture.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\UIComponents\FrmScritture.Designer.cs">
+      <DependentUpon>FrmScritture.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\UIComponents\FrmScrittureContoRLST.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\UIComponents\FrmScrittureContoRLST.Designer.cs">
+      <DependentUpon>FrmScrittureContoRLST.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\UIComponents\FrmSituazioneFianziaria.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\UIComponents\FrmSituazioneFianziaria.Designer.cs">
+      <DependentUpon>FrmSituazioneFianziaria.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\UIComponents\FrmTaglia.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\UIComponents\FrmTaglia.Designer.cs">
+      <DependentUpon>FrmTaglia.cs</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="abacus.ico" />
+    <Content Include="Assets\Teleassistenza.exe">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="LayoutSavings\layoutmodel.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Modelli\templateNazionale.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Modelli\templateRlst.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Modelli\template.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Money-Calculator.ico" />
+    <Content Include="piggy-bank.ico" />
+    <None Include="Resources\bookmark_32.png" />
+    <None Include="Resources\bookmark_16.png" />
+    <None Include="Resources\delete_16.png" />
+    <None Include="Resources\block_16.png" />
+    <None Include="Resources\home_16.png" />
+    <None Include="Resources\label_16.png" />
+    <None Include="Resources\close.png" />
+    <None Include="Resources\close1.png" />
+    <Content Include="Updates\updatefenealprovinciale.xml" />
+    <Content Include="Updates\updatefenealregionale.xml" />
+    <Content Include="Updates\updaterlst.xml" />
+    <None Include="Resources\diagram_16.png" />
+    <None Include="Resources\address_16.png" />
+    <None Include="Resources\gear_16.png" />
+    <None Include="Resources\globe_16.png" />
+    <None Include="Resources\search_16.png" />
+    <None Include="Resources\present_16.png" />
+    <None Include="Resources\diagram_161.png" />
+    <None Include="Resources\wallet_16.png" />
+    <None Include="Resources\statistics_16.png" />
+    <None Include="Resources\stop_16.png" />
+    <None Include="Resources\plus_16.png" />
+    <None Include="Resources\trash_16.png" />
+    <None Include="Resources\folder_32.png" />
+    <None Include="Resources\document_32.png" />
+    <None Include="DatiSpecificiRLST\GestAmm.exe.config">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Modelli\ProvincialeRLST.xlt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Resources\DeleteHS.png" />
+    <None Include="Resources\taglia.png" />
+    <None Include="Properties\DataSources\WIN.BILANCIO.ServiceLayer.DTO.ScritturaPrimaNotaDTO.datasource" />
+    <None Include="Resources\logoNoesis.png" />
+    <None Include="Resources\bilancio_530.jpg" />
+    <None Include="Modelli\Provinciale.xlt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Modelli\Regionale.xlt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Resources\spinner2-white40.gif" />
+    <None Include="Resources\bilancio1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.2.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 2.0 %28x86%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.0 %28x86%29</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <WebReferences Include="Web References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\WIN.BILANCIO\WIN.BILANCIO.csproj">
+      <Project>{8DA88464-6FFA-4CC7-8474-8C98C6D1736F}</Project>
+      <Name>WIN.BILANCIO</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
